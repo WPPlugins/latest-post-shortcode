@@ -1,0 +1,151 @@
+.lps_tabs table {
+    width:100%;
+}
+.lps_tabs *.lps_title_td {
+    width: 20%;
+    text-align: right;
+    line-height: 1.8rem;
+}
+.lps_tabs select {
+    width: 100%
+}
+
+.lps_shortcode_popup_container_table {
+    height: 100%;
+    overflow: scroll;
+}
+
+.lps_shortcode_popup_container_table tr td {
+    vertical-align: top;
+}
+
+.lps_shortcode_popup_container_table input[type="text"], .lps_shortcode_popup_container_table select {
+    min-width: 98% !important;
+    width: 98% !important;
+}
+
+#lps_shortcode_button_open span {
+    color: #000;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+#lps_display_limit, #lps_url_options, #lps_display_limit input, #lps_url_options input,
+#lps_preview_embed_shortcode, #lps_pagination_options, #lps_pagination_options input,
+#lps_pagination_options select, #lps_display_slider {
+    background-color: #FFFFCC;
+}
+
+#lps_pagination_options td {
+    vertical-align: middle !important;
+}
+
+#lps_preview_embed_shortcode {
+    padding: 10px;
+}
+
+.lps_tabs label {
+    line-height: 1.8rem;
+}
+
+.lps_tabs label.without-link, .lps_tabs label.with-link {
+    display: block;
+    float: left;
+    max-width: 72px;
+    max-height: 72px;
+    position: relative;
+    text-align: center;
+}
+.lps_tabs label.custom-type {
+    color: #AAA;
+    display: block;
+    line-height: 2rem;
+    font-style: italic;
+}
+
+.lps_tabs label img {
+    max-width: 72px;
+}
+
+.lps_tabs label.with-link {
+    display: none;
+}
+
+.lps_tabs label.without-link input[type="radio"],
+.lps_tabs label.with-link input[type="radio"] {
+    bottom: 5px;
+    left: 5px;
+    position: absolute;
+}
+
+.lps_tabs label.custom-type span {
+    display: block;
+    font-size: 0.8rem;
+    height: 100%;
+    line-height: 0.8rem;
+    padding: 0.5rem;
+    position: absolute;
+}
+
+
+.lps_tabs.ui-tabs {
+    position: relative;
+    padding: .2em;
+}
+.lps_tabs.ui-tabs * {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.lps_tabs.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: 0;
+}
+.lps_tabs.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 1px .2em 0 0;
+    border-bottom-width: 0;
+    padding: 0;
+    white-space: nowrap;
+    background-color: #EEE;
+    outline: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.lps_tabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: left;
+    padding: 0em 1em;
+    text-decoration: none;
+    line-height: 2.5em;
+    outline: none;
+}
+.lps_tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+    background-color: #DDD;
+}
+.lps_tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active a{
+     color: #000;
+     outline: none;
+}
+.lps_tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.lps_tabs.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
+.lps_tabs.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+    cursor: pointer;
+}
+.lps_tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+    cursor: pointer;
+    outline: none;
+}
+.lps_tabs.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 1em 1.4em;
+    background: none;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-top:5px solid #DDD;
+    margin-top: 2.6em;
+}
